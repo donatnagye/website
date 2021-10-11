@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body
+{
+    background-color: rgb(48, 50, 51);
+    margin: 0;
+    align-items: center;
+    transition: 0.3s;
+}
+nav ul
+{
+    background-color: rgb(39, 41, 43);
+    margin: 0;
+    text-align: center;
+    box-shadow: 4px 4px 4px rgb(168, 163, 163);
+    padding: 0.4%;
+    width:  100%;
+    transition: 0.3s;
+
+}
+nav ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    transition: 0.3s;
+    top: 0;
+
+}
+
+nav ul li a
+{
+    display: flex;
+    text-decoration: none;
+    margin: 0;
+    position: relative;
+}
+h1 , h2, h3{
+    color: wheat;
+}
+button
+{
+    font-size: 20px;
+    text-align: center;
+    padding: 14px 120px;
+    margin-top:3px;
+    background-color: rgb(39, 41, 43);
+    color: wheat;
+    border: 1px;
+    transition: 0.3s;
+}
+li button:hover{
+    background-color: rgb(48, 50, 51);
+    color: white;
+    font-style: bold;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px wheat
+}
+.card{
+    text-decoration-color: wheat;
+    text-align: center;
+    width: auto;
+    left: 10%;
+    right: 10%;
+    margin: auto;
+    position:absolute;transition: 0.3s;
+}
+
+.footer{
+    position: relative;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    color: black !important;
+    width: 100%;
+    padding-bottom: 70px;
+    background-color: black;
+    text-align: center;
+    margin-top: 180px;
+}
+#img1{
+    border-radius: 0 !important;
+}
+.card img{
+    border-radius: 50%;
+    width: 30%;
+}
+.about{
+    border: 2px solid white;
+    background-color: rgb(26, 26, 27);
+    width: 100%;
+    transition: 0.3s;
+}
+.about h1{
+    color: rgb(165, 124, 124);
+}
+.about h2 a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.prj{
+    border: 2px solid white;
+    background-color: rgb(26, 26, 27);
+    width: 100%;
+    display: inline-block;
+    transition: 0.3s;
+}
+#project div{
+    justify-content: space-evenly;
+    display: inline-block;
+    width: 98%;
+}
+.prj div div{
+    background:rgb(108, 108, 119);
+    width:25%;
+    padding: 0;
+    height:70px;
+    border: 2px solid wheat;
+    margin: 3px;
+}
+.prj div div h2, .prj div div h3{
+    display: inline-block;
+    margin: 0;
+}
+#img1{
+    background-color: rgb(26, 26, 27);
+        border: 2px solid white;
+
+}
+#img1 div div{
+     justify-content: space-evenly;
+    display: inline-block;
+}
+.wrapper .button{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  align-items: center;
+  margin: 0 5px;
+  overflow: hidden;
+  background: rgb(250, 250, 252);
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover{
+  width: 200px;
+}
+.wrapper .button .icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1):hover .icon{
+  background: #4267B2;
+  float: left;
+}
+.wrapper .button:nth-child(2):hover .icon{
+  
+  background: #E1306C;
+  float: left;
+}
+.wrapper .button:nth-child(3):hover .icon{
+  background: #1DA1F2;
+  float: left;
+}
+.wrapper .button:nth-child(4):hover .icon{
+  background: #ff0000;
+  float: left;
+}
+.wrapper .button:nth-child(5):hover .icon{
+  
+  background: #333;
+  float: left;
+}
+.wrapper .button .icon i{
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover .icon i{
+  color: #fff;
+}
+.wrapper .button span{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1) span{
+  color: #4267B2;
+  float: left;
+}
+.wrapper .button:nth-child(2) span{
+  color: #E1306C;
+  float: left;
+}
+.wrapper .button:nth-child(3) span{
+  
+  color: #1DA1F2;
+  float: left;
+}
+.i1{
+    text-decoration: none;
+    position: relative;
+}
