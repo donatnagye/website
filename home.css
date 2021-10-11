@@ -102,8 +102,6 @@ li button:hover{
     color: aliceblue;
 }
 
-/**/
-
 .toggle-button {
     position: absolute;
     top: .75rem;
@@ -114,6 +112,7 @@ li button:hover{
     width: 30px;
     height: 21px;
 }
+/**/
 .toggle-button .bar {
     height: 3px;
     width: 100%;
@@ -153,6 +152,7 @@ li button:hover{
         display: flex;
     }
 }
+/**/
 .prj{
     border: 2px solid white;
     background-color: rgb(26, 26, 27);
