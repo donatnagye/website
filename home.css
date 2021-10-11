@@ -102,6 +102,46 @@ li button:hover{
     color: aliceblue;
 }
 
+/**/
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar ul li {
+        text-align: center;
+    }
+
+    .navbar ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar.active {
+        display: flex;
+    }
+}
 .prj{
     border: 2px solid white;
     background-color: rgb(26, 26, 27);
