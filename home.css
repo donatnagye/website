@@ -8,7 +8,7 @@ body
     background-color: rgb(48, 50, 51);
     margin: 0;
     align-items: center;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 nav ul
 {
@@ -18,7 +18,7 @@ nav ul
     box-shadow: 4px 4px 4px rgb(168, 163, 163);
     padding: 0.4%;
     width:  100%;
-    transition: 0.3s;
+    transition: 0.3s all;
 
 }
 nav ul li
@@ -46,8 +46,8 @@ button
 {
     font-size: 20px;
     text-align: center;
-    padding: 14px 60px;
-    margin-top:10px;
+    padding: 14px 90px;
+    margin-top:3px;
     background-color: rgb(39, 41, 43);
     color: wheat;
     border: 1px;
@@ -64,8 +64,8 @@ li button:hover{
     text-decoration-color: wheat;
     text-align: center;
     width: auto;
-    left: 15%;
-    right: 15%;
+    left: 10%;
+    right: 10%;
     margin: auto;
     position:absolute;transition: 0.3s;
 }
@@ -120,12 +120,14 @@ li button:hover{
     border-radius: 10px;
 }
 
-@media (max-width: 743px) {
+@media (max-width: 800px) {
     .toggle-button {
         display: flex;
+        transition: all .5s ease-in-out !important;
     }
 
     .navbar {
+
         flex-direction: column;
         align-items: flex-start;
         transition: all .5s ease-in-out !important;
@@ -133,7 +135,9 @@ li button:hover{
         height: 0;
         overflow: hidden;
     }
-
+    .container div{
+        transition: all .5s ease-in-out !important;
+    }
     .navbar ul {
         width: 100%;
         flex-direction: column;
@@ -141,10 +145,12 @@ li button:hover{
 
     .navbar ul li {
         text-align: center;
+        transition: all .5s ease-in-out !important;
     }
 
     .navbar ul li a {
         padding: .5rem 1rem;
+        transition: all .5s ease-in-out !important;
     }
 
     .navbar.active {
