@@ -64,8 +64,8 @@ li button:hover{
     text-decoration-color: wheat;
     text-align: center;
     width: auto;
-    left: 13%;
-    right: 13%;
+    left: 15%;
+    right: 15%;
     margin: auto;
     position:absolute;transition: 0.3s;
 }
