@@ -128,7 +128,10 @@ li button:hover{
         display: flex;
         transition: all .5s ease-in-out !important;
     }
-
+    
+h2{
+    font-size: 15px;
+}
     .navbar {
 
         flex-direction: column;
